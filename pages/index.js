@@ -6,6 +6,7 @@ export default function Index(props) {
     )
 }
 
+// getStaticProps is a Next.js API to return data for static pages. see: https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation
 export async function getStaticProps(context) {
     // Query the filesystem for the content of the page.
     // getPageDocument schema comes from .tina/schema.ts
