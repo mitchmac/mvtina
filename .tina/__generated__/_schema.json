@@ -13,6 +13,15 @@
             "page",
             "title"
           ]
+        },
+        {
+          "type": "string",
+          "label": "Sub Title",
+          "name": "subTitle",
+          "namespace": [
+            "page",
+            "subTitle"
+          ]
         }
       ],
       "namespace": [

@@ -76,6 +76,7 @@ union DocumentNode = PageDocument
 
 type Page {
   title: String
+  subTitle: String
 }
 
 type PageDocument implements Node & Document {
@@ -110,6 +111,7 @@ input DocumentMutation {
 
 input PageMutation {
   title: String
+  subTitle: String
 }
 
 schema {

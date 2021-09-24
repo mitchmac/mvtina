@@ -4,6 +4,7 @@ const TinaCMS = dynamic(() => import("tinacms"), { ssr: false });
 
 const App = ({ Component, pageProps }) => {
     setEditing(true);
+
     return (
         <>
             <TinaEditProvider

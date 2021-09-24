@@ -10,6 +10,11 @@ export default defineSchema({collections: [
                     type: 'string',
                     label: 'Title',
                     name: 'title',
+                },
+                {
+                    type: 'string',
+                    label: 'Sub Title',
+                    name: 'subTitle',
                 }
             ],
         },

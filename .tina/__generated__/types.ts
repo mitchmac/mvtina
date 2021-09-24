@@ -143,6 +143,7 @@ export type DocumentNode = PageDocument;
 export type Page = {
   __typename?: 'Page';
   title?: Maybe<Scalars['String']>;
+  subTitle?: Maybe<Scalars['String']>;
 };
 
 export type PageDocument = Node & Document & {
@@ -201,5 +202,6 @@ export type DocumentMutation = {
 
 export type PageMutation = {
   title?: Maybe<Scalars['String']>;
+  subTitle?: Maybe<Scalars['String']>;
 };
 
