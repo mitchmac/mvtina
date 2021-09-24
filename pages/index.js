@@ -11,5 +11,5 @@ export default function Index(props) {
 }
 
 export async function getStaticProps(context) {
-    return await getSimpleStaticProps('Page', 'index.md', ['title', 'subTitle'])
+    return await getSimpleStaticProps({collection: 'Page', relativePath: 'index.md', fields: ['title', 'subTitle']})
 }
